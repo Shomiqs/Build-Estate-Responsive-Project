@@ -22,9 +22,13 @@ dark blue: rgb(51, 105, 230);
 .headerSpan {
   color: rgb(243, 156, 18);
   padding-left: 10px;
-  border-top: 2px solid black;
-  border-left: 2px solid black;
-  border-bottom: 2px solid black;
+  border-top: 3px solid gray;
+  border-left: 3px solid gray;
+  border-bottom: 3px solid gray;
+}
+
+.headerSpan2 {
+  color: gray;
 }
 
 .navDiv {
@@ -53,6 +57,14 @@ dark blue: rgb(51, 105, 230);
   padding: 20px;
 }
 
+.paddingBot {
+  padding-bottom: 40px;
+}
+
+.paddingTop {
+  padding-top: 30px;
+}
+
 .bckImage {
   display: flex;
   justify-content: center;
@@ -60,6 +72,13 @@ dark blue: rgb(51, 105, 230);
   background-image: url("/CSS Project Specification/assets/images/banner3.jpg");
   width: 100%;
   height: 250px;
+  background-size: cover;
+}
+
+.bckImage2 {
+  background-image: url("/CSS Project Specification/assets/images/about.jpg");
+  height: 250px;
+  width: 100%;
   background-size: cover;
 }
 
@@ -86,6 +105,10 @@ button {
 }
 
 .whoWeAre {
+  font-size: 35px;
+}
+
+.whatPeopleSays {
   font-size: 35px;
 }
 
