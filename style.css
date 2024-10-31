@@ -1,0 +1,146 @@
+/* 
+COLORS:
+blue: rgb(127, 194, 247);
+orange:rgb(243, 156, 18);
+green: rgb(44, 221, 152);
+pink: rgb(255, 79, 129);
+dark blue: rgb(51, 105, 230);
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.headerSpan {
+  color: rgb(243, 156, 18);
+  padding-left: 10px;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.navDiv {
+  background-color: rgb(127, 194, 247);
+  width: 100%;
+}
+
+.navClass {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+}
+
+.navClass > p {
+  color: white;
+  text-align: center;
+}
+
+.prvaSlika {
+  height: 300px;
+  width: 100%;
+}
+
+.padding {
+  padding: 20px;
+}
+
+.bckImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/CSS Project Specification/assets/images/banner3.jpg");
+  width: 100%;
+  height: 250px;
+  background-size: cover;
+}
+
+.bckImage div > p {
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  color: white;
+  background-color: rgb(51, 105, 230);
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+}
+
+.whoWeAre {
+  font-size: 35px;
+}
+
+.span-l {
+  display: inline-block;
+  border: 1px solid black;
+  width: 50px;
+  margin-right: 10px;
+}
+
+.span-m {
+  display: inline-block;
+  border: 2px solid black;
+  width: 25px;
+  height: 25px;
+  transform: rotate(45deg);
+}
+
+.span-r {
+  display: inline-block;
+  border: 1px solid black;
+  width: 50px;
+  margin-left: 10px;
+}
+
+.span-flex {
+  display: flex;
+  align-items: center;
+}
+
+article {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+h3 {
+  color: rgb(127, 194, 247);
+  padding-bottom: 20px;
+}
+
+article > p {
+  font-size: 13.5px;
+  padding-bottom: 20px;
+}
+
+.article-font-size {
+  font-size: 13.5px;
+}
+
+.article-f-col {
+  color: grey;
+}
+
+.flex-article {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
