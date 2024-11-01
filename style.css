@@ -181,7 +181,6 @@ article > p {
   width: 85%;
   margin: 5px 0;
   padding: 15px;
-  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 1); */
   text-align: left;
 }
 
@@ -192,9 +191,10 @@ article > p {
 
 .profile-image {
   border: 2px solid white;
+  padding: 2px;
   border-radius: 50%;
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   margin-right: 15px;
 }
 
@@ -215,19 +215,48 @@ article > p {
   color: white;
 }
 /* ------------------------ ZA CONTACTS----------------------------------------------------- */
+
+.padding-left-right {
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+}
+
+.flex-dir-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 .contact-container {
   display: flex;
-  align-items: flex-start;
+  flex-wrap: wrap;
+  height: 400px;
+  width: 100%;
 }
 
 .contact {
-  background-color: rgb(44, 221, 152);
   height: 200px;
-  width: 200px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(44, 221, 152);
 }
 
 .contact-img {
-  background-color: rgb(44, 221, 152);
-  width: 15px;
-  height: 15px;
+  color: white;
+  text-align: center;
+  width: 20px;
+  height: 20px;
 }
+
+/* .house {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/CSS Project Specification/assets/images/house.png");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+} */
