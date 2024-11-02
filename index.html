@@ -7,14 +7,14 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container">
+    <div class="container" id="header">
       <h1>
         <span class="headerSpan">BUILD</span>
         <span class="headerSpan2">ESTATE</span>
       </h1>
     </div>
-    <div class="container padding">
-      <nav class="navClass navDiv padding">
+    <div class="container padding" id="navID">
+      <nav class="navClass navDiv padding"  >
         <p>HOME</p>
         <p>ABOUT</p>
         <p>SERVICES</p>
@@ -39,12 +39,13 @@
         </div>
       </div>
       <article>
-        <h3>Welcome To Our Build Estate</h3>
+        <div class="text-and-photo">
+        <div class="flex-article">
+          <h3>Welcome To Our Build Estate</h3>
         <p class="article-font-size">
           "If you can build buildings, why sit on the beach?,We always think of
           buildings in their settings, but so do other achitects."
         </p>
-        <div class="flex-article">
           <p class="article-font-size article-f-col">
             <img
               src="/CSS Project Specification/assets/images/arrow_bullet.png"
@@ -74,7 +75,7 @@
             Best Design Architecture
           </p>
         </div>
-        <div class="bckImage2"></div>
+        <div class="bckImage2"></div> </div>
         <h3 class="paddingTop">We Make Your Dream Home</h3>
         <p class="article-font-size">
           "For decades engineers have stood accused that their buildings do not
@@ -112,8 +113,8 @@
             <span class="span-r"></span>
           </div>
         </div>
-        <!-- ------------------------- KARTICE LJUDI ------------------------------------- -->
       </article>
+        <!-- ------------------------- KARTICE LJUDI ------------------------------------- -->
       <div class="card-container">
         <div class="card">
           <div class="card-header">
@@ -205,12 +206,28 @@
             <div class="contact-head">
               <p class="flex">CONNECT US</p>
               <p>
+                <div class="social">
                 <img
                   class="contact-img"
-                  src="/CSS Project Specification/assets/images/phone-m.svg.svg"
+                  src="/CSS Project Specification/assets/images/facebook-176-svgrepo-com.svg"
                   alt=""
                 />
-                +0(12) 000 123 3120
+                <img
+                  class="contact-img"
+                  src="/CSS Project Specification/assets/images/twitter-svgrepo-com.svg"
+                  alt=""
+                />
+                <img
+                  class="contact-img"
+                  src="/CSS Project Specification/assets/images/wifi-1021-svgrepo-com.svg"
+                  alt=""
+                />
+                <img
+                  class="contact-img"
+                  src="/CSS Project Specification/assets/images/vk-logo-svgrepo-com.svg"
+                  alt=""
+                />
+              </div>
               </p>
             </div>
           </div>
@@ -260,9 +277,11 @@
         <span class="span-r"></span>
       </div>
     </div>
+
     <div class="form-container">
-      <div>
+      
         <form action="">
+          <div class="input-group">
           <input type="text" name="Name" id="Name" placeholder="Name" />
           <input type="email" name="Mail" id="Mail" placeholder="Email" />
           <input
@@ -271,16 +290,22 @@
             id="Telephone"
             placeholder="Telephone"
           />
+        </div>
+        
+        <div>
           <textarea
-            name="Message"
-            id="Message"
-            placeholder="Message"
+          name="Message"
+          id="Message"
+          placeholder="Message"
           ></textarea>
+        </div>
+
           <div class="button">
             <button class="button2">Submit</button>
           </div>
         </form>
-      </div>
+      
     </div>
+
   </body>
 </html>
