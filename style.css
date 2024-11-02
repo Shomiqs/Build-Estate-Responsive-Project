@@ -57,6 +57,10 @@ dark blue: rgb(51, 105, 230);
   padding: 20px;
 }
 
+.paddingMailUs {
+  padding-top: 50px;
+}
+
 .paddingBot {
   padding-bottom: 40px;
 }
@@ -96,7 +100,7 @@ dark blue: rgb(51, 105, 230);
   justify-content: center;
 }
 
-button {
+.button1 {
   color: white;
   background-color: rgb(51, 105, 230);
   padding: 10px 20px;
@@ -241,7 +245,15 @@ article > p {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(44, 221, 152);
+}
+
+.house-img {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
 }
 
 .contact-img {
@@ -251,12 +263,58 @@ article > p {
   height: 20px;
 }
 
-/* .house {
+.col-box-1 {
+  background-color: rgb(44, 221, 152);
+}
+.col-box-2 {
+  background-color: rgb(255, 79, 129);
+}
+.col-box-3 {
+  background-color: rgb(51, 105, 230);
+}
+.col-box-4 {
+  background-color: rgb(127, 194, 247);
+}
+
+.form-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: url("/CSS Project Specification/assets/images/house.png");
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: auto;
+}
+
+.button {
+  display: flex;
+}
+
+input,
+textarea {
   width: 100%;
-  height: 100%;
-  background-size: cover;
-} */
+  padding: 10px;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+textarea {
+  height: 150px;
+}
+
+.button2 {
+  color: white;
+  border: none;
+  width: 110px;
+  height: 35px;
+  margin-left: 10px;
+  margin-bottom: 50px;
+  background-color: rgb(243, 156, 18);
+  border-radius: 1px;
+}
+
+html {
+  margin: 0 auto;
+  width: 100%;
+}
+
+@media screen and (min-width: 769px) {
+}
