@@ -16,7 +16,7 @@ dark blue: rgb(51, 105, 230);
 
 @font-face {
   font-family: MyCustomFont;
-  src: url(/specs/assets/fonts/Roboto-Regular.ttf);
+  src: url(specs/assets/fonts/Roboto-Regular.ttf);
 }
 
 .container {
@@ -395,6 +395,10 @@ html {
     width: calc(50% - 15px);
   }
 
+  .text-and-photo > div:nth-child(3) {
+    width: 100%;
+  }
+
   .article-font-size {
     padding-bottom: 20px;
   }
@@ -467,6 +471,10 @@ html {
 }
 
 @media screen and (min-width: 1200px) {
+  .text-and-photo > div:nth-child(3) {
+    width: 30%;
+  }
+
   .flex-article {
     width: calc(30% - 15px);
   }
