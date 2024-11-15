@@ -313,9 +313,10 @@ article > p {
 }
 
 .footerCl {
+  padding: 0 35px;
   display: flex;
   justify-content: center;
-  gap: 15px;
+  gap: 5px;
 }
 
 .footer-BG {
@@ -323,9 +324,15 @@ article > p {
   padding: 50px;
 }
 
+.footer-BG p {
+  font-size: 12px;
+  text-align: center;
+}
+
 a {
   color: white;
   text-decoration: none;
+  font-size: 14px;
 }
 
 footer > p {
