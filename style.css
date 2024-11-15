@@ -320,8 +320,7 @@ article > p {
 
 .footer-BG {
   background-color: rgb(97, 97, 97);
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding: 50px;
 }
 
 a {
